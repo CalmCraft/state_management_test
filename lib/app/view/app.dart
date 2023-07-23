@@ -37,6 +37,10 @@ class _AppState extends State<App> {
           Image.asset('assets/images/guitar/guitar$i.png').image,
           context,
         );
+        precacheImage(
+          Image.asset('assets/images/dob/dob$i.png').image,
+          context,
+        );
       }
       precacheImage(
         Image.asset('assets/logo/facebook.png').image,
